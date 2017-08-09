@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "67A7B34C1DBB9700008F363D"
-               BuildableName = "SGCMac.app"
-               BlueprintName = "SGCMac"
-               ReferencedContainer = "container:SGCMac.xcodeproj">
+               BuildableName = "GPATool.app"
+               BlueprintName = "GPATool"
+               ReferencedContainer = "container:GPATool.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "67A7B35B1DBB9700008F363D"
-               BuildableName = "SGCMacTests.xctest"
-               BlueprintName = "SGCMacTests"
-               ReferencedContainer = "container:SGCMac.xcodeproj">
+               BuildableName = "GPAToolTests.xctest"
+               BlueprintName = "GPAToolTests"
+               ReferencedContainer = "container:GPATool.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "67A7B3661DBB9700008F363D"
-               BuildableName = "SGCMacUITests.xctest"
-               BlueprintName = "SGCMacUITests"
-               ReferencedContainer = "container:SGCMac.xcodeproj">
+               BuildableName = "GPAToolUITests.xctest"
+               BlueprintName = "GPAToolUITests"
+               ReferencedContainer = "container:GPATool.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "67A7B34C1DBB9700008F363D"
-            BuildableName = "SGCMac.app"
-            BlueprintName = "SGCMac"
-            ReferencedContainer = "container:SGCMac.xcodeproj">
+            BuildableName = "GPATool.app"
+            BlueprintName = "GPATool"
+            ReferencedContainer = "container:GPATool.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "67A7B34C1DBB9700008F363D"
-            BuildableName = "SGCMac.app"
-            BlueprintName = "SGCMac"
-            ReferencedContainer = "container:SGCMac.xcodeproj">
+            BuildableName = "GPATool.app"
+            BlueprintName = "GPATool"
+            ReferencedContainer = "container:GPATool.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "67A7B34C1DBB9700008F363D"
-            BuildableName = "SGCMac.app"
-            BlueprintName = "SGCMac"
-            ReferencedContainer = "container:SGCMac.xcodeproj">
+            BuildableName = "GPATool.app"
+            BlueprintName = "GPATool"
+            ReferencedContainer = "container:GPATool.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

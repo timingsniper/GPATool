@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6710E5991F3ADD5500FA6EFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7B3501DBB9700008F363D /* AppDelegate.swift */; };
+		6710E59A1F3ADD5500FA6EFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7B3501DBB9700008F363D /* AppDelegate.swift */; };
+		6710E5A11F3AE07200FA6EFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710E5A01F3AE07200FA6EFB /* ViewController.swift */; };
+		6710E5A21F3AE07200FA6EFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710E5A01F3AE07200FA6EFB /* ViewController.swift */; };
+		6710E5A31F3AE07200FA6EFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6710E5A01F3AE07200FA6EFB /* ViewController.swift */; };
 		67A7B3511DBB9700008F363D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7B3501DBB9700008F363D /* AppDelegate.swift */; };
 		67A7B3531DBB9700008F363D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67A7B3521DBB9700008F363D /* Assets.xcassets */; };
-		67A7B3561DBB9700008F363D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67A7B3541DBB9700008F363D /* MainMenu.xib */; };
 		67A7B3611DBB9700008F363D /* SGCMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7B3601DBB9700008F363D /* SGCMacTests.swift */; };
 		67A7B36C1DBB9700008F363D /* SGCMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67A7B36B1DBB9700008F363D /* SGCMacUITests.swift */; };
+		67A7B37A1DBB9718008F363D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67A7B3791DBB9718008F363D /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,17 +37,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		67A7B34D1DBB9700008F363D /* SGCMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGCMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6710E5A01F3AE07200FA6EFB /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
+		67998CE91F3A993100C7EDE8 /* GPACalculator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GPACalculator.entitlements; sourceTree = "<group>"; };
+		67A7B34D1DBB9700008F363D /* GPATool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPATool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A7B3501DBB9700008F363D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67A7B3521DBB9700008F363D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		67A7B3551DBB9700008F363D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		67A7B3571DBB9700008F363D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67A7B35C1DBB9700008F363D /* SGCMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGCMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A7B35C1DBB9700008F363D /* GPAToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPAToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A7B3601DBB9700008F363D /* SGCMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGCMacTests.swift; sourceTree = "<group>"; };
 		67A7B3621DBB9700008F363D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		67A7B3671DBB9700008F363D /* SGCMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGCMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A7B3671DBB9700008F363D /* GPAToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPAToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67A7B36B1DBB9700008F363D /* SGCMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGCMacUITests.swift; sourceTree = "<group>"; };
 		67A7B36D1DBB9700008F363D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67A7B3791DBB9718008F363D /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +77,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67663CD31E11194D00A31F42 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
 		67A7B3441DBB9700008F363D = {
 			isa = PBXGroup;
 			children = (
+				67998CE91F3A993100C7EDE8 /* GPACalculator.entitlements */,
 				67A7B34F1DBB9700008F363D /* SGCMac */,
 				67A7B35F1DBB9700008F363D /* SGCMacTests */,
 				67A7B36A1DBB9700008F363D /* SGCMacUITests */,
@@ -83,9 +98,9 @@
 		67A7B34E1DBB9700008F363D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				67A7B34D1DBB9700008F363D /* SGCMac.app */,
-				67A7B35C1DBB9700008F363D /* SGCMacTests.xctest */,
-				67A7B3671DBB9700008F363D /* SGCMacUITests.xctest */,
+				67A7B34D1DBB9700008F363D /* GPATool.app */,
+				67A7B35C1DBB9700008F363D /* GPAToolTests.xctest */,
+				67A7B3671DBB9700008F363D /* GPAToolUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -93,9 +108,11 @@
 		67A7B34F1DBB9700008F363D /* SGCMac */ = {
 			isa = PBXGroup;
 			children = (
+				67663CD31E11194D00A31F42 /* Image */,
 				67A7B3501DBB9700008F363D /* AppDelegate.swift */,
 				67A7B3521DBB9700008F363D /* Assets.xcassets */,
-				67A7B3541DBB9700008F363D /* MainMenu.xib */,
+				67A7B3791DBB9718008F363D /* MainMenu.xib */,
+				6710E5A01F3AE07200FA6EFB /* ViewController.swift */,
 				67A7B3571DBB9700008F363D /* Info.plist */,
 			);
 			path = SGCMac;
@@ -122,9 +139,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		67A7B34C1DBB9700008F363D /* SGCMac */ = {
+		67A7B34C1DBB9700008F363D /* GPATool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67A7B3701DBB9700008F363D /* Build configuration list for PBXNativeTarget "SGCMac" */;
+			buildConfigurationList = 67A7B3701DBB9700008F363D /* Build configuration list for PBXNativeTarget "GPATool" */;
 			buildPhases = (
 				67A7B3491DBB9700008F363D /* Sources */,
 				67A7B34A1DBB9700008F363D /* Frameworks */,
@@ -134,14 +151,14 @@
 			);
 			dependencies = (
 			);
-			name = SGCMac;
+			name = GPATool;
 			productName = SGCMac;
-			productReference = 67A7B34D1DBB9700008F363D /* SGCMac.app */;
+			productReference = 67A7B34D1DBB9700008F363D /* GPATool.app */;
 			productType = "com.apple.product-type.application";
 		};
-		67A7B35B1DBB9700008F363D /* SGCMacTests */ = {
+		67A7B35B1DBB9700008F363D /* GPAToolTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67A7B3731DBB9700008F363D /* Build configuration list for PBXNativeTarget "SGCMacTests" */;
+			buildConfigurationList = 67A7B3731DBB9700008F363D /* Build configuration list for PBXNativeTarget "GPAToolTests" */;
 			buildPhases = (
 				67A7B3581DBB9700008F363D /* Sources */,
 				67A7B3591DBB9700008F363D /* Frameworks */,
@@ -152,14 +169,14 @@
 			dependencies = (
 				67A7B35E1DBB9700008F363D /* PBXTargetDependency */,
 			);
-			name = SGCMacTests;
+			name = GPAToolTests;
 			productName = SGCMacTests;
-			productReference = 67A7B35C1DBB9700008F363D /* SGCMacTests.xctest */;
+			productReference = 67A7B35C1DBB9700008F363D /* GPAToolTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		67A7B3661DBB9700008F363D /* SGCMacUITests */ = {
+		67A7B3661DBB9700008F363D /* GPAToolUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67A7B3761DBB9700008F363D /* Build configuration list for PBXNativeTarget "SGCMacUITests" */;
+			buildConfigurationList = 67A7B3761DBB9700008F363D /* Build configuration list for PBXNativeTarget "GPAToolUITests" */;
 			buildPhases = (
 				67A7B3631DBB9700008F363D /* Sources */,
 				67A7B3641DBB9700008F363D /* Frameworks */,
@@ -170,9 +187,9 @@
 			dependencies = (
 				67A7B3691DBB9700008F363D /* PBXTargetDependency */,
 			);
-			name = SGCMacUITests;
+			name = GPAToolUITests;
 			productName = SGCMacUITests;
-			productReference = 67A7B3671DBB9700008F363D /* SGCMacUITests.xctest */;
+			productReference = 67A7B3671DBB9700008F363D /* GPAToolUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -187,7 +204,13 @@
 				TargetAttributes = {
 					67A7B34C1DBB9700008F363D = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 8WABJGLV4L;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 					67A7B35B1DBB9700008F363D = {
 						CreatedOnToolsVersion = 8.0;
@@ -201,7 +224,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 67A7B3481DBB9700008F363D /* Build configuration list for PBXProject "SGCMac" */;
+			buildConfigurationList = 67A7B3481DBB9700008F363D /* Build configuration list for PBXProject "GPATool" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -214,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				67A7B34C1DBB9700008F363D /* SGCMac */,
-				67A7B35B1DBB9700008F363D /* SGCMacTests */,
-				67A7B3661DBB9700008F363D /* SGCMacUITests */,
+				67A7B34C1DBB9700008F363D /* GPATool */,
+				67A7B35B1DBB9700008F363D /* GPAToolTests */,
+				67A7B3661DBB9700008F363D /* GPAToolUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -227,7 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67A7B3531DBB9700008F363D /* Assets.xcassets in Resources */,
-				67A7B3561DBB9700008F363D /* MainMenu.xib in Resources */,
+				67A7B37A1DBB9718008F363D /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6710E5A11F3AE07200FA6EFB /* ViewController.swift in Sources */,
 				67A7B3511DBB9700008F363D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +284,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6710E5A21F3AE07200FA6EFB /* ViewController.swift in Sources */,
+				6710E5991F3ADD5500FA6EFB /* AppDelegate.swift in Sources */,
 				67A7B3611DBB9700008F363D /* SGCMacTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,6 +294,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6710E5A31F3AE07200FA6EFB /* ViewController.swift in Sources */,
+				6710E59A1F3ADD5500FA6EFB /* AppDelegate.swift in Sources */,
 				67A7B36C1DBB9700008F363D /* SGCMacUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,26 +305,15 @@
 /* Begin PBXTargetDependency section */
 		67A7B35E1DBB9700008F363D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 67A7B34C1DBB9700008F363D /* SGCMac */;
+			target = 67A7B34C1DBB9700008F363D /* GPATool */;
 			targetProxy = 67A7B35D1DBB9700008F363D /* PBXContainerItemProxy */;
 		};
 		67A7B3691DBB9700008F363D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 67A7B34C1DBB9700008F363D /* SGCMac */;
+			target = 67A7B34C1DBB9700008F363D /* GPATool */;
 			targetProxy = 67A7B3681DBB9700008F363D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		67A7B3541DBB9700008F363D /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				67A7B3551DBB9700008F363D /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		67A7B36E1DBB9700008F363D /* Debug */ = {
@@ -339,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -382,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -393,11 +410,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GPACalculator.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8WABJGLV4L;
 				INFOPLIST_FILE = SGCMac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = timingsniper.SGCMac;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joonwoo.macsgc;
+				PRODUCT_NAME = GPATool;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -406,11 +427,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GPACalculator.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 8WABJGLV4L;
 				INFOPLIST_FILE = SGCMac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = timingsniper.SGCMac;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.joonwoo.macsgc;
+				PRODUCT_NAME = GPATool;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -426,7 +451,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = timingsniper.SGCMacTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGCMac.app/Contents/MacOS/SGCMac";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPATool.app/Contents/MacOS/GPATool";
 			};
 			name = Debug;
 		};
@@ -441,7 +466,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = timingsniper.SGCMacTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGCMac.app/Contents/MacOS/SGCMac";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPATool.app/Contents/MacOS/GPATool";
 			};
 			name = Release;
 		};
@@ -476,7 +501,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		67A7B3481DBB9700008F363D /* Build configuration list for PBXProject "SGCMac" */ = {
+		67A7B3481DBB9700008F363D /* Build configuration list for PBXProject "GPATool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67A7B36E1DBB9700008F363D /* Debug */,
@@ -485,29 +510,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67A7B3701DBB9700008F363D /* Build configuration list for PBXNativeTarget "SGCMac" */ = {
+		67A7B3701DBB9700008F363D /* Build configuration list for PBXNativeTarget "GPATool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67A7B3711DBB9700008F363D /* Debug */,
 				67A7B3721DBB9700008F363D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		67A7B3731DBB9700008F363D /* Build configuration list for PBXNativeTarget "SGCMacTests" */ = {
+		67A7B3731DBB9700008F363D /* Build configuration list for PBXNativeTarget "GPAToolTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67A7B3741DBB9700008F363D /* Debug */,
 				67A7B3751DBB9700008F363D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		67A7B3761DBB9700008F363D /* Build configuration list for PBXNativeTarget "SGCMacUITests" */ = {
+		67A7B3761DBB9700008F363D /* Build configuration list for PBXNativeTarget "GPAToolUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				67A7B3771DBB9700008F363D /* Debug */,
 				67A7B3781DBB9700008F363D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
